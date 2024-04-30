@@ -62,7 +62,7 @@ body {
 }
 
 .top {
-    height: 33vh;
+    /* height: 33vh; */
     max-width: 80%;
 
     font-weight: bold;
@@ -75,12 +75,12 @@ body {
 
 .middle {
     background-color: white;
-    height: 33vh;
+    /* height: 33vh; */
     margin-top: 32px;
     
 }
 
 .bottom {
-    height: 33vh;
+    /* height: 33vh; */
    
 }
