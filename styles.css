@@ -74,7 +74,9 @@
 }
 
 .intro-section,
-.input-section {
+.input-section,
+.submit-button,
+.log-in {
     padding-left: 3vw;
 }
 
@@ -126,6 +128,24 @@ input:focus {
     border: 2px solid blue;
 }
 
-.bottom {
-   
+button {
+    background-color: #596d48;
+    color: white;
+    font-weight: 700;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 48px;
+    margin: 40px 0;
+}
+
+.log-in {
+    display: flex;
+    gap: 5px;
+}
+
+a {
+    color: #596d48;
+    font-weight: bold;
+    text-decoration: none;
 }
